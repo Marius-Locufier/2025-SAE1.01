@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug SatisfactIUT",
+      "type": "fpDebug",
+      "request": "launch",
+      "program": "${workspaceFolder}\\2025-S1-SAE2.01\\SatisfactIUT.exe"
+    }
+  ]
+}
