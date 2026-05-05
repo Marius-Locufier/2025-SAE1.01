@@ -86,20 +86,20 @@ Un menu caché permet de tricher (remplir les stocks, révéler la carte, répar
 
 ```
 SatisfactIUT/
-├── SatisfactIUT.lpr              # Point d'entrée du programme
-├── unitLogic.pas                 # Logique centrale (structures, boucle de jeu, temps)
-├── unitIHM.pas                   # Interface homme-machine (menus, écran titre)
-├── unitBatiment.pas              # Construction, amélioration, récolte, vente
-├── unitMission.pas               # Contrats galactiques et boutique de bonus
-├── unitChangeZone.pas            # Déplacement entre zones
+├── SatisfactIUT.lpr                # Point d'entrée du programme
+├── unitLogic.pas                   # Logique centrale (structures, boucle de jeu, temps)
+├── unitIHM.pas                     # Interface homme-machine (menus, écran titre)
+├── unitBatiment.pas                # Construction, amélioration, récolte, vente
+├── unitMission.pas                 # Contrats galactiques et boutique de bonus
+├── unitChangeZone.pas              # Déplacement entre zones
 ├── unitEmplacementConstruction.pas # Gestion des emplacements
-├── GestionDesEmplacements.pas    # Chargement/sauvegarde des zones en mémoire
-├── GestionEcran.pas              # Utilitaires d'affichage console (couleurs, cadres, curseur)
-├── unitINV.pas                   # Inventaire
-├── unitWiki.pas                  # Données du wiki
-├── unitWikiIHM.pas               # Affichage du wiki
-├── Musique_bonus.pas             # Sons et effets audio (beep Windows)
-└── SatisfactIUT.exe              # Exécutable compilé (Windows)
+├── GestionDesEmplacements.pas      # Chargement/sauvegarde des zones en mémoire
+├── GestionEcran.pas                # Utilitaires d'affichage console (couleurs, cadres, curseur)
+├── unitINV.pas                     # Inventaire
+├── unitWiki.pas                    # Données du wiki
+├── unitWikiIHM.pas                 # Affichage du wiki
+├── Musique_bonus.pas               # Sons et effets audio (beep Windows)
+└── SatisfactIUT.exe                # Exécutable compilé (Windows)
 ```
 
 ---
@@ -125,7 +125,7 @@ Ou ouvrir le projet dans **Lazarus** et lancer la compilation depuis l'IDE.
 SatisfactIUT.exe
 ```
 
-> ⚠️ Le jeu est conçu pour une console Windows en **plein écran** ou avec une largeur d'au moins **200 colonnes** pour un affichage optimal.
+> Le jeu est conçu pour une console Windows en **plein écran** ou avec une largeur d'au moins **200 colonnes** pour un affichage optimal.
 
 ---
 
